@@ -13,6 +13,8 @@ If you have any suggestions, I'm super glad to take them unless they are constru
 3. _Choose the number of components in a PCA_
    https://rlrocha.medium.com/choosing-the-number-of-components-of-principal-component-analysis-36902a887520
    The PCA reduces dimensionality by looking at the contributed variance of each single feature (k-component) to the total variance described by **ALL** features. This is called _cumulative explained variance ratio_.
-   Given the equation in the link at 3., since it's cumulative, the final component will contribute to 100% (practically never reaching that level because we will always miss the predicted variable from the feature vector).
+   Given the equation in the link at 3., since it's cumulative, the final component will contribute to 100%.
    The more the ratio grows, the more the variance is explained by that feature.
    Finally, when the ratio reaches a certain level or anyway the increase of explained variance of the next component is not consistent to justify its introduction, then that k-th component sets the number of components to determine the model.
+
+   Important: PCA does not exclude features to reduce the dimensionality of the data. It groups those into less dimensions in order to shrink the features impacting the model.
