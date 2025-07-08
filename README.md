@@ -18,3 +18,13 @@ If you have any suggestions, I'm super glad to take them unless they are constru
    Finally, when the ratio reaches a certain level or anyway the increase of explained variance of the next component is not consistent to justify its introduction, then that k-th component sets the number of components to determine the model.
 
    Important: PCA does not exclude features to reduce the dimensionality of the data. It groups those into less dimensions in order to shrink the features impacting the model.
+4. _Split Dataset into train and test_
+   https://www.geeksforgeeks.org/python/how-to-split-the-dataset-with-scikit-learns-train_test_split-function/
+   This step is important to mitigate the risk of the prediction as our model will be fit with two different datasets.
+6. _Understanding MAE_
+   https://medium.com/@m.waqar.ahmed/understanding-mean-absolute-error-mae-in-regression-a-practical-guide-26e80ebb97df
+   This metric is helpful to measure the error of our model. It's crucial to be contestualized to the data.
+8. _Adding New Columns to a Dataframe_
+   https://www.geeksforgeeks.org/pandas/adding-new-column-to-existing-dataframe-in-pandas/
+9. _Seaborn Gallery_
+   https://seaborn.pydata.org/examples/index.html
